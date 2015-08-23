@@ -2,7 +2,6 @@
 title: "Summarized Smartphone Movement Data"
 author: "Jeffrey Dettmann"
 date: "August 23, 2015"
-output: html_document
 ---
 
 The code available in this repository creates a data frame with each row representing the mean and average values of all data available in the UCI Human Activity Recognition Using Smartphones Data Set for every user-activity combination.
@@ -14,7 +13,7 @@ To generate a data frame of summarized smartphone movement data, follow the inst
 2. Download the zip archive of the aforementioned data set and accompanying documentation from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 3. Unzip this archive into the working directory.
 4. In R, set the R working directory to the working directory.
-5. Execute the code in run\_analysis.R. This code will create a variable with the name "tidy\_data" as well as create a file with this data in the working directory with the name "tidy_data.txt".
+5. Execute the code in run\_analysis.R. This code will create a data frame with the name "tidy\_data" as well as create a file with this data in the working directory with the name "tidy_data.txt".
 
 Note: In subsequent sessions, you will not need to run the code, but you can simply load the tidy data by running `tidy_data <- read.table("tidy.txt")`.
 

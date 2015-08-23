@@ -45,4 +45,4 @@ The naming template for these variables is as follows:
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-From features.txt in the documentation included in the [UCI Data Set Zip File](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+From features_info.txt in the documentation included in the [UCI Data Set Zip File](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
